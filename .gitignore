@@ -1,4 +1,4 @@
-/dataset
+/dataset/*
 /serverless-app/protobuf-4.21.7.dist-info/*
 /serverless-app/google
 /serverless-app/google/*
