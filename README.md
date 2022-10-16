@@ -170,7 +170,7 @@ select * from ecomm_user_activity_stream_1;
     
     ```
 
-# Create Lambda function to DynamoDB, CloudWatch and SNS (THIS IS of DDOS)
+# Create Lambda function to DynamoDB, CloudWatch and SNS (This is for DDoS)
 
 - Install the `aws_kinesis_agg` package 
     ```
