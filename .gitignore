@@ -1,0 +1,10 @@
+/dataset
+/serverless-app/protobuf-4.21.7.dist-info/*
+/serverless-app/google
+/serverless-app/google/*
+/serverless-app/protobuf-4.21.7.dist-info
+/serverless-app/protobuf-4.21.7.dist-info/*
+/serverless-app/aws_kinesis_agg
+/serverless-app/aws_kinesis_agg/*
+/serverless-app/aws_kinesis_agg-1.2.3.dist-info
+/serverless-app/aws_kinesis_agg-1.2.3.dist-info/*
