@@ -61,8 +61,9 @@ GROUP BY category_id;
     
 - Creat a Amazon Kinesis Data Analytics Streaming Application
     - Using Zeppelin Notebook 
-    - Kinesis > Analytics Application > Studio > Create a Studio Notebook
+    - Kinesis > Analytics Application > Studio > Create a Studio Notebook (with Custom settings)
     - Studio Notebook Name : `ecomm-streaming-app-v1` 
+    - IAM : `Default`
     - Choose the Source : `ecommerce-raw-user-activity-stream-1`
     - Choose the Destination : `ecommerce-raw-user-activity-stream-2`
     - Destination for code in Amazon S3 : `s3://ecommerce-raw-us-east-1-dev`

@@ -9,6 +9,7 @@ s3 = boto3.client('s3', region_name='us-east-1')
 s3_resource = boto3.resource('s3', region_name='us-east-1')
 kinesis_client = boto3.client('kinesis', region_name='us-east-1')
 
+# Kinesis Details 
 kinesis_stream_name = 'ecommerce-raw-user-activity-stream-1'
 streaming_partition_key = 'category_id'
 
@@ -45,7 +46,8 @@ def stream_data_simulator(input_s3_bucket, input_s3_key):
                                                  PartitionKey=str(json_load[streaming_partition_key]))
             # response['category_code'] = json_load['category_code']
             print('HttpStatusCode:', response['ResponseMetadata']['HTTPStatusCode'], ', ', json_load['category_code'])
-
+            # print(response)
+            
             # Adding a temporary pause, for demo-purposes:
             sleep(0.5)
 
